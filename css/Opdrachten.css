@@ -1,0 +1,20 @@
+body{
+    background-color:yellow;
+
+}
+header {
+    background-color:red;
+    height: 260px;
+    margin-bottom: 20px;
+}
+section{
+    background-color: green;
+    height: 460px;
+    border: 1px;
+    border: black;
+}
+footer{
+    background-color: black;
+    height: 230px;
+    padding: 20px;
+}
