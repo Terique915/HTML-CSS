@@ -1,0 +1,14 @@
+section.deel1,deel2{
+    width: 50%;
+    float: left;
+}
+ul li {
+    list-style: none;
+    left: 150px;
+    padding: 10px;
+}
+form ul li input{
+
+
+}
+

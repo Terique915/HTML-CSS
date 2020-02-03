@@ -3,46 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulier</title>
-    <style>
-        form ul{
-            list-style: none;
-            padding: 0;
-        }
-        form ul li{
-            padding: 10px;
-        }
-        form ul li input{
-            position: absolute;
-            left: 150px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="Formulier.css">
 </head>
+
 <body>
+<header>
+    <h2>Voorbeeld Formulier</h2>
+</header>
 <form action="https://www.savatarian.com/html5/form.php" method="post">
-    <ul>
-        <li>
-            <h2>Voorbeeld Formulier</h2>
-        </li>
+    <section class="deel1">
+    <ul class="deel1">
+
+
+
         <li>
             <label for="voornaam">Voornaam:</label>
-            <input type="text" name="voornaam" id="voornaam">
+            <input type="text" name="voornaam" id="voornaam"style="margin-left: 28px">
+
         </li>
         <li>
-            <label for="Tussenvoegsel">Voornaam:</label>
-            <input type="text" name="Tussenvoegsel" id="Tussenvoegsel">
+            <label for="Tussenvoegsel">Tussenvoegsel:</label>
+            <input type="text" name="Tussenvoegsel" id="Tussenvoegsel" >
         </li>
         <li>
-            <label for="achternaam">achternaam:</label>
-            <input type="text" name="achternaam" id="achternaam">
+            <label for="achternaam">Achternaam:</label>
+            <input type="text" name="achternaam" id="achternaam"style="margin-left: 15px">
         </li>
         <li>
-            <input type="radio" name="gender" value="male" checked> Male<br>
-            <input type="radio" name="gender" value="female"> Female
-        </li>
+            <label>Geslacht</label>
+
+            <input type="radio" name="geslacht" value="man"/>
+            &nbsp;Man
+            <input type="radio" name="geslacht" value="man" style="margin-left: 30px"/>
+            &nbsp;Vrouw
 
 
+        </li>
+        <li>
+            <label>Kleur Ogen</label>
+            <select name="Kleur Ogen" style="margin-left: 55px">
+                <option>Groen</option>
+                <option>Blauw</option>
+                <option>Bruin</option>
+            </select>
+        </li>
+        <li>
+            <label for="geboorte datum">Geboorte datum</label>
+            <input type="date" id="geboorte datum">
+        </li>
+        <li>
+            <label for="Omschrijving" >Omschrijving</label>
+            <input type="text" name="Omschrijving" id="Omschrijving" style="height:100px" >
 
     </ul>
+    </section>
+    <section class="deel2">
+        <ul>
+            <li>
+                <label for="lekker-eten">Lekker eten</label><br>
+                <input type="checkbox" name="lekker-eten" value="patat" id="lekker-eten">
+                <span class="checkbox">Patat</span><br>
+                <input type="checkbox" name="lekker-eten" value="Kip" >
+                <span class="checkbox">Kip</span><br>
+                <input type="checkbox" name="lekker-eten" value="Pizza">
+                <span class="checkbox">Pizza</span>
+            </li>
+        </ul>
+    </section>
+
 
 </form>
 </body>
