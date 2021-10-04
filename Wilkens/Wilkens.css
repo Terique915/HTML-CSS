@@ -19,18 +19,20 @@ div.wrapper{
 }
 article{
     float: left;
-    width: 50%;
+    width: 49%;
     margin-right: 30px;
     margin-top: 30px;
 }
 table{
     border: 1px solid black;
     border-collapse: collapse;
+    width: 47%;
+
 
 
 }
 td{
-    padding: 10px;
+    padding: 15px;
     border: 1px solid black;
 }
 td.blauw{
